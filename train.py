@@ -1,6 +1,5 @@
 import nltk
 from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
 import json
 import pickle
 
@@ -32,6 +31,7 @@ for intent in intents['intents']:
             classes.append(intent['tag'])
 
 # lemmaztize and lower each word and remove duplicates
+lemmatizer = WordNetLemmatizer()
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
 # sort classes
