@@ -1,7 +1,7 @@
 {"intents": [
   {
     "tag": "greeting",
-    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","hey","how is it going?"],
+    "patterns": ["Hi","Hii", "How are you", "Is anyone there?", "Hello", "Good day","hey","how is it going?"],
     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
   },
   {
@@ -33,37 +33,42 @@
     "tag": "power",
     "patterns":["How much power will the Turbo transformer add?","How much power would my car get?","Will this product improve my car's speed?",
     "How much torque and horsepower will I get?","How much BHP will it add?"],
-    "responses":"The Turbo Transformer typically increases your horsepower and torque by 15 to 25 percent."
+    "responses":["The Turbo Transformer typically increases your horsepower and torque by 15 to 25 percent."]
   },
   {
     "tag": "product",
     "patterns":["What is Turbo Transformer?","What is this?","What is this product?"],
-    "responses":"Turbo Transformer is a Bluetooth enabled piggyback boost controller for turbo-charged engines. It increases boost by intercepting one or more pressure sensor(s) on your engine."
+    "responses":["Turbo Transformer is a Bluetooth enabled piggyback boost controller for turbo-charged engines. It increases boost by intercepting one or more pressure sensor(s) on your engine."]
   },
   {
     "tag": "install",
     "patterns":["How and where do I install Turbo transformer on my car?","How to install this?","How to fit this?","Where to fit this?"],
-    "responses":"To install Turbo Transformer, simply disconnect the sensor connector, plug the Turbo Transformer into the sensor and connect the factory harness into the Turbo Transformer. In some cases, you may have to repeat this process for the manifold pressure sensor."
+    "responses":["To install Turbo Transformer, simply disconnect the sensor connector, plug the Turbo Transformer into the sensor and connect the factory harness into the Turbo Transformer. In some cases, you may have to repeat this process for the manifold pressure sensor."]
   },
   {
     "tag": "engine_warranty",
     "patterns":["Will this void my warranty?","Will Turbo Transformer void my engine warranty?"],
-    "responses":"Yes. Any modification voids warranty. However, a piggyback voids it far less than a flash-tune."
+    "responses":["Yes. Any modification voids warranty. However, a piggyback voids it far less than a flash-tune."]
   },
   {
     "tag":"smartphone",
     "patterns":["What to do with the smartphone app?","How to use the smartphone app?","What can I do with the smart phone app?"],
-    "responses":"Using our free smartphone apps, a user can adjust the device settings and monitor the boost pressure. All devices are configured for a 2 psi gain when they ship. Custom mode allows the user to go up to 4 psi as well as fine-tune the mapping by adjusting all three attributes base delta and slope."
+    "responses":["Using our free smartphone apps, a user can adjust the device settings and monitor the boost pressure. All devices are configured for a 2 psi gain when they ship. Custom mode allows the user to go up to 4 psi as well as fine-tune the mapping by adjusting all three attributes base delta and slope."]
   },
   {
     "tag":"damage",
     "patterns":["Will Turbo Transformer lean out my engine?","Will this damage my engine?","Can my engine blow out because of this?"],
-    "responses":"NO! Before releasing a product, we do our due diligence and ensure that your ECU is equipped with a wide-band O2 sensor and it runs in closed loop operation even under full-throttle allowing the fuel mixture to be within safe operating parameters."
+    "responses":["NO! Before releasing a product, we do our due diligence and ensure that your ECU is equipped with a wide-band O2 sensor and it runs in closed loop operation even under full-throttle allowing the fuel mixture to be within safe operating parameters."]
   },
   {
     "tag":"product_warranty",
+    "patterns":["What about the warranty?","What's the warranty on this thing?"],
+    "responses":["Turbo Transformer guarantees that the Turbo Transformer unit will be free from MANUFACTURING defects for three hundred and sixty five (365) calendar days after delivery."]
+  },
+  {
+    "tag":"nothing",
     "patterns":[""],
-    "responses":"Turbo Transformer guarantees that the Turbo Transformer unit will be free from MANUFACTURING defects for three hundred and sixty five (365) calendar days after delivery. In the event of a faulty Turbo Transformer unit, the faulty unit must be returned to Turbo Transformer upon which the cause of the failure will be determined by Turbo Transformer. If the failure is determined not to be from misuse or abuse, Turbo Transformer will replace the non-conforming unit with a new one at no cost to the buyer. To qualify for an exchange, the seller must first ship the non-conforming unit back to Turbo Transformer. Warranty applies only to the original purchaser and is non-transferable. Turbo Transformer is not responsible for this shipping cost."
+    "responses":["Sorry I didn't get that. Could you please try again?"]
   }
 ]
 }
